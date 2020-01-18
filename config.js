@@ -1,4 +1,4 @@
-const port = 3002;
+const port = 8080;
 const baseURL = `http://localhost:${port}`;
 module.exports = {
   // The secret for the encryption of the jsonwebtoken

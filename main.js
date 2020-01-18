@@ -76,5 +76,5 @@ app.get('/', function (req, res) {
 
 // Listen on the port defined in the config file
 app.listen(CONFIG.port, function () {
-  console.log(`Listening on port ${CONFIG.port}`);
+  console.log(`Access on localhost:${CONFIG.port}`);
 });
