@@ -66,7 +66,7 @@ app.get('/', function (req, res) {
       auth: oauth2Client,
       mine: true,
       part: 'snippet,contentDetails',
-      maxResults: 5
+      maxResults: 40
     }).then(response => {
       console.log(response)
       // Render the data view, passing the subscriptions to it
